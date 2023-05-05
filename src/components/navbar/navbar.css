@@ -1,0 +1,48 @@
+.navbar {
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.navbarLinks {
+    align-items: center;
+    justify-content: space-between;
+    gap: 30rem;
+
+}
+
+.navbarLinksMain {
+    gap: 30px;
+}
+
+.navbarLinksMain a:hover {
+    color: #fd9d88;
+    transition: 0.2s ease-in-out;
+}
+
+.navbarLogo img {
+    width: 60px;
+}
+
+.navbarLogo a{
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarLinksButtons {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignInButton:hover {
+    color: #fd9d88;
+    transition: 0.2s ease-in-out;
+}
+
+.SignUpButton {
+    border-radius: 4px;
+    padding: 16px 34px;
+    background-color: #FF4820;
+}

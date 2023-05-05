@@ -1,0 +1,80 @@
+* {
+    color: white;
+}
+
+.HeaderSection {
+    align-items: center;
+    justify-content: center;
+}
+
+.mainHeaderContent {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.headerImage img {
+    width: 660px;
+}
+
+h1 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 4.5rem;
+}
+
+input {
+    height: 60px;
+    width: 50%;
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
+    border: transparent;
+    margin-left: 2px;
+    padding-left: 15px;
+}
+
+input:focus {
+    border: none;
+}
+
+button {
+    background: #FF4820;
+    border-radius: 0px 5px 5px 0px;
+    border: transparent;
+    padding: 0 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #3D6184;
+}
+
+.mainPara {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 554px;
+    line-height: 27px;
+
+    color: #81AFDD;
+}
+
+.userCont {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.userCont img {
+    width: 150px;
+}
+
+.userCont p {
+    font-size: small;
+}
