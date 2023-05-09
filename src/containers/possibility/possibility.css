@@ -1,0 +1,28 @@
+.possibility_section {
+    margin-top: 45px;
+}
+
+.img_cont img {
+    width: 546px;
+    height: auto;
+}
+
+.possibility_section_main {
+    padding-left: 50px;
+    gap: 10px;
+}
+
+.possibility_section_main h1 {
+    font-size: 34px;
+    line-height: 45px;
+    max-width: 500px;
+}
+
+.early_access_first {
+    color: #71E5FF;
+}
+
+.early_access {
+    color: var(--color-subtext);
+    margin-top: 30px;
+}

@@ -1,0 +1,9 @@
+.brandSection{
+    align-items: center;
+    justify-content: center;
+    margin-block:80px ;
+}
+
+.imageGroup{
+    gap: 40px;
+}

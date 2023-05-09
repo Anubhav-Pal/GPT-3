@@ -1,0 +1,31 @@
+.cta_section {
+    margin-block: 154px;
+}
+
+.cta_main_cont {
+    align-items: center;
+    justify-content: center;
+    gap: 320px;
+    background: var(--gradient-text);
+    padding: 50px;
+    border-radius: 10.72px;
+}
+
+.text_cta01 {
+    color: black;
+    font-size: 12px;
+}
+.text_cta02 {
+    color: black;
+    font-size: 24px;
+}
+
+.button_cont button {
+    border: 0px;
+    border-radius: 40px;
+    padding: 15px 44px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: black;
+
+}

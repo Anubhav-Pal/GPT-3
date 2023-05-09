@@ -31,7 +31,6 @@ li {
 .container {
   max-width: 1300px;
   margin-inline: auto;
-  padding: var(--padding-inline-section);
   overflow: hidden;
 }
 

@@ -1,0 +1,66 @@
+.whatGPT3_section {
+    flex-direction: column;
+    background-color: #042C54;
+    padding: 80px;
+    gap: 90px;
+}
+
+.first_cont_sub {
+    justify-content: space-between;
+}
+
+.first_cont h3 {
+    width: 100%;
+}
+
+.first_cont p {
+    color: var(--color-text);
+}
+
+.second_cont {
+    flex-direction: column;
+    gap: 90px;
+}
+
+.first_subCont {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_subCont h1 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 30px;
+    max-width: 467px;
+    font-weight: 900;
+}
+
+
+.first_subCont p {
+    color: var(--color-subtext);
+}
+
+
+.second_subCont {
+    gap: 70px;
+    line-height: 30px;
+}
+
+hr {
+    width: 3rem;
+    background-color: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.whatGPT3_section hr {
+    margin-bottom: 30px;
+}
+
+.second_subCont h2 {
+    margin-bottom: 50px;
+}
+
+.second_subCont p {
+    color: var(--color-text);
+}
