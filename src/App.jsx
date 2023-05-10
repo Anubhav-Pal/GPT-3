@@ -13,7 +13,7 @@ const App = () => (
       <Feature />
       <Possibility />
       <CTA />
-      <Blog />
+      {/* <Blog /> */}
     </div>
     <Footer />
   </div>
