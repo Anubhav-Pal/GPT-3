@@ -48,3 +48,47 @@
     max-width: 400px;
     font-size: 14px;
 }
+
+
+@media screen and (width<479px) {
+    .feature_section {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+        margin-bottom:7rem;
+    }
+
+    .left_cont {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .right_cont {
+        flex-direction: column;
+        gap: 60px;
+        width: 100%;
+    }
+
+    .mono_feature_main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+
+    .mono_feature_main h2 {
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .mono_feature_main p {
+        color: var(--color-text);
+        max-width: 400px;
+        font-size: 14px;
+    }
+
+
+}

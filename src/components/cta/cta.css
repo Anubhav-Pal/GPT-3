@@ -15,6 +15,7 @@
     color: black;
     font-size: 12px;
 }
+
 .text_cta02 {
     color: black;
     font-size: 24px;
@@ -27,5 +28,21 @@
     font-weight: 700;
     font-size: 18px;
     background-color: black;
+
+}
+
+@media screen and (width<479px) {
+
+    .cta_section {
+        margin-block: 100px;
+    }
+
+    .cta_main_cont {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+        margin: 0 20px;
+    }
 
 }

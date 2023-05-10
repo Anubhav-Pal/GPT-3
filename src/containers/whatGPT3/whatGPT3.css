@@ -64,3 +64,45 @@ hr {
 .second_subCont p {
     color: var(--color-text);
 }
+
+@media screen and (width<470px) {
+    .first_cont_sub {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .first_subCont {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .first_subCont h1 {
+        background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 30px;
+        max-width: 100%;
+        font-weight: 00;
+    }
+
+
+    .first_subCont p {
+        color: var(--color-subtext);
+    }
+
+    .second_subCont {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .second_subCont h2 {
+        margin-bottom: 20px;
+    }
+    .second_subCont hr {
+        margin-bottom: 10px;
+    }
+}

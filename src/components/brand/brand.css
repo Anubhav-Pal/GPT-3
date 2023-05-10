@@ -7,3 +7,13 @@
 .imageGroup{
     gap: 40px;
 }
+
+@media screen and (width<479px) {
+    .imageGroup{
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+}
