@@ -46,3 +46,40 @@
     padding: 16px 34px;
     background-color: #FF4820;
 }
+
+
+
+@media screen and (width<479px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbarLinks {
+        /* visibility: hidden; */
+        background-color: #042C54;
+        border-radius: 6px;
+        width: 100%;
+        padding: 20px 0;
+        position: absolute;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 40px;
+    }
+
+    .navbarLinksMain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbarLinksButtons {
+        flex-direction: column;
+    }
+
+    .SignUpButton {
+        border-radius: 4px;
+        padding: 16px 100px;
+        background-color: #FF4820;
+    }
+
+
+}
