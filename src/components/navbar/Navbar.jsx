@@ -24,7 +24,7 @@ const Navbar = () => (
         <a href="" className='SignInButton'>Sign in</a>
         <a href="" className='SignUpButton'>Sign up</a>
       </div>
-      
+
     </div>
   </section>
 )

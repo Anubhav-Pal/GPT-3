@@ -55,12 +55,12 @@
     }
 
     .navbarLinks {
+        position: absolute;
         /* visibility: hidden; */
         background-color: #042C54;
         border-radius: 6px;
         width: 100%;
         padding: 20px 0;
-        position: absolute;
         flex-direction: column;
         gap: 50px;
         margin-top: 40px;
